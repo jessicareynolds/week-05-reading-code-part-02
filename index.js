@@ -1,11 +1,8 @@
 module.exports = function nameThisFunction(arr) {
-    let retVal = 0
+    if (arr.length === 0) return 0
 
-    arr.forEach((item) => {
-        if (item > retVal && item <= 21) {
-            retVal = item
-        }
-    });
+    const [first, ...rest] = arr
 
-    return retVal
+    return first + nameThisFunction(rest)
 }
+
