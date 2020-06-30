@@ -1,0 +1,26 @@
+{
+  "name": "week-05-reading-code-part-02",
+  "version": "1.0.0",
+  "description": "There is no game at the end this time. Just individual, unrelated functions to figure out for each challenge.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummerOfCode2020/week-05-reading-code-part-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SummerOfCode2020/week-05-reading-code-part-02/issues"
+  },
+  "homepage": "https://github.com/SummerOfCode2020/week-05-reading-code-part-02#readme",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
