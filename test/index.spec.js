@@ -5,9 +5,9 @@ const nameThisFunction = require('../index.js')
 // determine if we can send `nameThisFunction` an Array of Numbers
 describe('nameThisFunction', function  () {
     it('does something to be determined', function () {
-        const testArray = [0, 10, 20, 30]
+        // set up some test data based on what we see
 
-        const result = nameThisFunction(testArray)
+        // call the function under test and figure things out
 
         // we can only add an `assert` after we understand more
     })

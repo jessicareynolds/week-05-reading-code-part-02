@@ -1,8 +1,8 @@
-module.exports = function nameThisFunction(arr) {
-    if (arr.length === 0) return 0
+module.exports = function nameThisFunction(x, y) {
+    if (y === 0) return 0
+    if (y === 1) return x
 
-    const [first, ...rest] = arr
-
-    return first + nameThisFunction(rest)
+    return x * nameThisFunction(x, y - 1)
 }
+
 
