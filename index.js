@@ -1,10 +1,11 @@
-module.exports = function nameThisFunction(value) {
-    var pieces = value.split(' ');
-    var newList = [];
+module.exports = function nameThisFunction(arr) {
+    let retVal = 0
 
-    while (pieces.length) {
-        newList.push(pieces.pop());
-    }
+    arr.forEach((item) => {
+        if (item > retVal && item <= 21) {
+            retVal = item
+        }
+    });
 
-    return newList.join(' ');
-};
+    return retVal
+}
