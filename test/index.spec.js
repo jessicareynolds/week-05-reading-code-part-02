@@ -6,8 +6,11 @@ const nameThisFunction = require('../index.js')
 describe('nameThisFunction', function  () {
     it('does something to be determined', function () {
         // set up some test data based on what we see
+        const data = ['A', 'A', 'B', 'B', 'C', 'D', 'E', 'E']
 
         // call the function under test and figure things out
+        const result = nameThisFunction(data)
+        console.log(result)
 
         // we can only add an `assert` after we understand more
     })
